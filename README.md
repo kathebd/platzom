@@ -1,4 +1,4 @@
-#Patzom
+# Patzom
 
 Platzom s un idioma inventado para el curso de [Fundamentos de JavaScript](https://platzi.com.js)
 de platzi [Plati](https://plazi.com), el mejor lugar de educación online
