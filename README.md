@@ -1,25 +1,25 @@
-# Patzom
+# Platzom
 
-Platzom s un idioma inventado para el curso de [Fundamentos de JavaScript](https://platzi.com.js)
-de platzi [Plati](https://plazi.com), el mejor lugar de educación online
-
+Platzom es un idioma inventado para el [Curso de Fundamentos de Javascript de Platzi](https://platzi.com/js)
 
 ## Descripción del idioma
 
-- si la palabra termina en ar se le quitan los dos caracteres
-- si la pallabra inicia con Z se le añade 'pe al final'
-- si la palabra traducida tiene mas de 10 letras se debe partir a la mitad y unir con guion
-- si la palabra original es un palindromo , ninguna de las reglas anteriores cuenta y se 
-  regresa la misma palabra intercalando mayusculas y minusculas.
+- Si la palabra termina con "ar" , se le quitan esas dos letras.
+- Si la palabra inicia con Z, se le añade "pe" al final 
+- Si la palabra traducida tiene 10 o más letras se debe partir en dos por la mitad y unir con un guión medio
+- Por último, si la palabra original es un palíndromo, ninguna regla anterior cuenta y se devuelve la misma palabra pero intercalando letras mayusculas y minusculas.
 
 ## Instalación
+
 ```
-npm install platzom
+nmp install platzom
+
 ```
 
 ## Uso 
+
 ```
-Import platzom from 'platzom'
+import platzom from 'platzom'
 
 platzom("Programar") // Program
 platzom("Zorro") // Zorrope
@@ -29,7 +29,9 @@ platzom("sometemos") // SoMeTeMoS
 
 ```
 
+## Creditos
+-[Roberto Delgado](https://www.linkedin.com/in/robertoantoniodelgadonieves/)
+
 ## Licencia
 
 [MIT](https://opensource.org/licenses/MIT)
-
